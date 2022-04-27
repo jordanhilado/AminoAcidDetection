@@ -14,12 +14,19 @@
     <button type="submit">Translate</button>
   </form>
   <div>
-    {% for row in rows %}
-    <tr>
-      <td>{{row["oldsequence"]}}</td>
-      <td>{{row["newsequence"]}}</td>
-    </tr>
-    {% endfor %}
+    <table border="1">
+      <thead>
+        <td>Original Sequence</td>
+        <td>Translated Sequence</td>
+      </thead>
+      {% for row in rows %}
+      <tr>
+        <td>{{row["oldsequence"]}}</td>
+        <td>{{row["newsequence"]}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <button type="reset">Clear table</button>
   </div>
 </div>
 {% endblock %}
