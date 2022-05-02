@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Button, Grid, Link } from "@nextui-org/react";
+import { Button, Grid, Link, Text } from "@nextui-org/react";
 
 const dna: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const dna: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>DNA</h1>
+        <Text>test</Text>
       </main>
 
       <footer className={styles.footer}>
