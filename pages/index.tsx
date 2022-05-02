@@ -250,7 +250,7 @@ const Home: NextPage = () => {
             )}
           </div>
         ) : null}
-        <Spacer y={2.5} />
+        <Spacer y={1} />
         <Button
           onClick={() => setTranslate(true)}
           color="gradient"

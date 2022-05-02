@@ -1,8 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Button, Grid, Link, Text } from "@nextui-org/react";
+import {
+  Button,
+  Grid,
+  Link,
+  Text,
+  Spacer,
+  Table,
+  Image,
+} from "@nextui-org/react";
 
 const aminoacids: NextPage = () => {
   return (
@@ -14,8 +21,115 @@ const aminoacids: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Amino Acids</h1>
-        <Text>Amino Acids</Text>
+        <Text
+          h1
+          size={60}
+          css={{
+            textGradient: "45deg, $blue500 -20%, $pink500 50%",
+          }}
+          weight="bold"
+        >
+          Amino Acids
+        </Text>
+        <Grid.Container justify="center">
+          <Grid xs={4}>
+            <Text size={30}>
+              <Spacer y={2} />
+              Amino acids are molecules that form proteins. Proteins and amino
+              acids are two building blocks of life. Proteins that are broken
+              down are transformed into amino acids, and can be used to break
+              down our food, repair tissues, and help us grow. There three types
+              of amino acids are ,{" "}
+              <Text
+                small
+                size={30}
+                css={{
+                  textGradient: "45deg, $red500, $yellow500 90%",
+                }}
+                weight="bold"
+              >
+                essential amino acids
+              </Text>
+              ,{" "}
+              <Text
+                small
+                size={30}
+                css={{
+                  textGradient: "45deg, $pink500, $green500 90%",
+                }}
+                weight="bold"
+              >
+                nonessential amino acids
+              </Text>
+              , and{" "}
+              <Text
+                small
+                size={30}
+                css={{
+                  textGradient: "45deg, $blue500, $pink500 90%",
+                }}
+                weight="bold"
+              >
+                conditional amino acids
+              </Text>
+              . Essential amino acids come from food, nonessential amino acids
+              are produced by our bodies, and conditional amino acids are
+              produced in times of illness.
+            </Text>
+          </Grid>
+          <Grid xs={4}>
+            <ul>
+              <Text
+                small
+                size={35}
+                css={{
+                  textGradient: "45deg, $green500, $blue500 90%",
+                }}
+                weight="bold"
+              >
+                Amino Acids Facts
+              </Text>
+              <li>
+                <Text size={25}>
+                  About 20% of the body is made up of amino acids.
+                </Text>
+              </li>
+              <li>
+                <Text size={25}>
+                  There are about 20 different types of amino acids.
+                </Text>
+              </li>
+              <li>
+                <Text size={25}>
+                  The codon table is used to represent the 64 possible
+                  combinations of nucleotide sequences. 61 are amino acids and 3
+                  are stop signals.
+                </Text>
+              </li>
+              <li>
+                <Text size={25}>
+                  Out of the 64 possible combinations, 20 amino acids are formed
+                  from these codons to form the amino acids that we use
+                  everyday.
+                </Text>
+              </li>
+              <li>
+                <Text size={25}>
+                  Our DNA would stretch over 110 billion miles, which would be
+                  the length of going to the Sun and back over 600 times.
+                </Text>
+              </li>
+            </ul>
+          </Grid>
+        </Grid.Container>
+        <Spacer y={3} />
+        <Image
+          width={400}
+          height={400}
+          src={require("../assets/codontable.png")}
+          alt="Codon Table"
+          objectFit="cover"
+        />
       </main>
 
       <footer className={styles.footer}>
