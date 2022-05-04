@@ -76,7 +76,7 @@ const dna: NextPage = () => {
               . Adenine pairs with Thymine, and Cytosine pairs with Guanine to
               form base pairs, in which collectively, a base, sugar, and
               phosphate are made up into a nucleotide. These nucleotides form
-              the structure that you see as a double helix.
+              the structure that you see as a double helix. One strand is held to another by hydrogen bonds between the bases.
             </Text>
           </Grid>
           <Grid xs={4}>

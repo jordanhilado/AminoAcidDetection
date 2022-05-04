@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Button, Grid, Link, Text, Spacer } from "@nextui-org/react";
+import { Button, Grid, Link, Text, Spacer, Image } from "@nextui-org/react";
 
 const codon: NextPage = () => {
   return (

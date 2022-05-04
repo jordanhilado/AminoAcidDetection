@@ -113,23 +113,11 @@ const aminoacids: NextPage = () => {
                   everyday.
                 </Text>
               </li>
-              <li>
-                <Text size={25}>
-                  Our DNA would stretch over 110 billion miles, which would be
-                  the length of going to the Sun and back over 600 times.
-                </Text>
-              </li>
             </ul>
           </Grid>
         </Grid.Container>
         <Spacer y={3} />
-        <Image
-          width={400}
-          height={400}
-          src={require("../assets/codontable.png")}
-          alt="Codon Table"
-          objectFit="cover"
-        />
+        <img src={'/assets/codontable.png'} />
       </main>
 
       <footer className={styles.footer}>
