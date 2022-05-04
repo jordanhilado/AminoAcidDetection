@@ -23,7 +23,7 @@ const dna: NextPage = () => {
         >
           DNA
         </Text>
-        <img height={300} src={'/assets/dna.png'} />
+        <img height={300} src={"/assets/dna.png"} />
         <Grid.Container justify="center">
           <Grid xs={4}>
             <Text size={30}>
@@ -77,7 +77,8 @@ const dna: NextPage = () => {
               . Adenine pairs with Thymine, and Cytosine pairs with Guanine to
               form base pairs, in which collectively, a base, sugar, and
               phosphate are made up into a nucleotide. These nucleotides form
-              the structure that you see as a double helix. One strand is held to another by hydrogen bonds between the bases.
+              the structure that you see as a double helix. One strand is held
+              to another by hydrogen bonds between the bases.
             </Text>
           </Grid>
           <Grid xs={4}>
@@ -128,7 +129,7 @@ const dna: NextPage = () => {
             </ul>
           </Grid>
         </Grid.Container>
-        <img height={700} src={'/assets/dnastrand.jpg'} />
+        <img height={700} src={"/assets/dnastrand.jpg"} />
       </main>
 
       <footer className={styles.footer}>
@@ -137,7 +138,7 @@ const dna: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by Jordan Hilado
+          Created by Jordan Hilado and Shaan Obney
         </a>
       </footer>
     </div>

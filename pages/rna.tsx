@@ -163,8 +163,8 @@ const rna: NextPage = () => {
             </ul>
           </Grid>
         </Grid.Container>
-        <img height={600} src={'/assets/rnacodontable.png'} />
-        <img height={600} src={'/assets/rnastrand.png'} />
+        <img height={600} src={"/assets/rnacodontable.png"} />
+        <img height={600} src={"/assets/rnastrand.png"} />
       </main>
 
       <footer className={styles.footer}>
@@ -173,7 +173,7 @@ const rna: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by Jordan Hilado
+          Created by Jordan Hilado and Shaan Obney
         </a>
       </footer>
     </div>

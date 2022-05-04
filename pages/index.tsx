@@ -166,7 +166,7 @@ const Home: NextPage = () => {
         </Text>
         <p className={styles.description}>Input the DNA/RNA sequence.</p>
         <Input
-          width="600px"
+          width="300px"
           labelPlaceholder="Sequence"
           size="xl"
           onChange={getSeq}
@@ -292,7 +292,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by Jordan Hilado
+          Created by Jordan Hilado and Shaan Obney
         </a>
       </footer>
     </div>
