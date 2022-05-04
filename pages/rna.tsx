@@ -163,6 +163,7 @@ const rna: NextPage = () => {
             </ul>
           </Grid>
         </Grid.Container>
+        <img height={600} src={'/assets/rnacodontable.png'} />
       </main>
 
       <footer className={styles.footer}>
