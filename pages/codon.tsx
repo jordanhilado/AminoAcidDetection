@@ -48,8 +48,7 @@ const codon: NextPage = () => {
               </Text>
               <li>
                 <Text size={25}>
-                  Each codon specifies an amino acid. The full set of
-                  relationships between codons and amino acids is summarized in the Condon Table below.
+                There are 64 different codons in the genetic code, and most codons specify an amino acid.
                 </Text>
               </li>
               <li>
@@ -60,14 +59,15 @@ const codon: NextPage = () => {
               </li>
               <li>
                 <Text size={25}>
-                  Three “Stop” codons mark the end of a protein and terminate
-                  the translation.
+                  Three “Stop” codons (UAG, UGA, and UAA) mark the end of a protein and terminate
+                  the translation. These do not code for an amino acid.
                 </Text>
               </li>
             </ul>
           </Grid>
         </Grid.Container>
         <img height={600} src={'/assets/rnacodontable.png'} />
+        <img height={500} src={'/assets/codontable2.png'} />
       </main>
 
       <footer className={styles.footer}>
