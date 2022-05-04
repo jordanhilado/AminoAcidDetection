@@ -26,12 +26,12 @@ const codon: NextPage = () => {
           <Grid xs={4}>
             <Text size={30}>
               <Spacer y={1} />A codon is a sequence of three nucleotides which
-              together form a unit of genetic code in a DNA or RNA molecule. Typically, a
-              codon table can be used to translate a genetic code into a
-              sequence of amino acids. The standard genetic code is
+              together form a unit of genetic code in a DNA or RNA molecule. The standard genetic code is
               traditionally represented as an RNA codon table, because when
               proteins are made in a cell by ribosomes, it is messenger RNA
-              (mRNA) that directs protein synthesis.
+              (mRNA) that directs protein synthesis. A single amino acid may be coded for by more than one codon.
+              Although most organisms use the standard code, they may have their own preferences in terms of choosing which codons to use. 
+              For example, baking yeasts prefer using UGU for Cysteine. In contrast, in human cells, we prefer UGC.
             </Text>
           </Grid>
           <Grid xs={4}>
