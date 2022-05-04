@@ -128,6 +128,7 @@ const dna: NextPage = () => {
             </ul>
           </Grid>
         </Grid.Container>
+        <img height={700} src={'/assets/dnastrand.jpg'} />
       </main>
 
       <footer className={styles.footer}>
