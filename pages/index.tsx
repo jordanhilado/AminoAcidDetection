@@ -278,6 +278,11 @@ const Home: NextPage = () => {
               Amino Acids
             </Button>
           </Link>
+          <Link href="/codon">
+            <Button size="xl" shadow color="gradient" auto>
+              Codons
+            </Button>
+          </Link>
         </div>
       </main>
 
