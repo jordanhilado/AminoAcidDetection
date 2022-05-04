@@ -23,6 +23,7 @@ const dna: NextPage = () => {
         >
           DNA
         </Text>
+        <img height={300} src={'/assets/dna.png'} />
         <Grid.Container justify="center">
           <Grid xs={4}>
             <Text size={30}>

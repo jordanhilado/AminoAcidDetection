@@ -26,7 +26,7 @@ const codon: NextPage = () => {
           <Grid xs={4}>
             <Text size={30}>
               <Spacer y={1} />A codon is a sequence of three nucleotides which
-              together form a unit of genetic code in a DNA or RNA molecule. A
+              together form a unit of genetic code in a DNA or RNA molecule. Typically, a
               codon table can be used to translate a genetic code into a
               sequence of amino acids. The standard genetic code is
               traditionally represented as an RNA codon table, because when
@@ -49,8 +49,7 @@ const codon: NextPage = () => {
               <li>
                 <Text size={25}>
                   Each codon specifies an amino acid. The full set of
-                  relationships between codons and amino acids is summarized as
-                  a Condon Chart or Table.
+                  relationships between codons and amino acids is summarized in the Condon Table below.
                 </Text>
               </li>
               <li>
@@ -68,6 +67,7 @@ const codon: NextPage = () => {
             </ul>
           </Grid>
         </Grid.Container>
+        <img height={600} src={'/assets/rnacodontable.png'} />
       </main>
 
       <footer className={styles.footer}>
